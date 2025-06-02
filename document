@@ -1,0 +1,36 @@
+🔹 Overview
+This file contains a basic Calculator module written in Python, which supports common arithmetic operations such as addition, subtraction, multiplication, and division. It also includes utility functions like doubling a number and a placeholder "dummy" function.
+
+🔧 Functions and Descriptions
+🔹 add(a, b)
+Returns: the sum of a and b
+Example: add(3, 4) → 7
+
+🔹 subtract(a, b)
+Returns: the result of a - b
+Example: subtract(10, 4) → 6
+
+🔹 multiply(a, b)
+Returns: the result of a * b
+Example: multiply(3, 5) → 15
+
+🔹 divide(a, b)
+Returns: the result of a / b
+Warning: No error handling for division by zero
+Example: divide(10, 2) → 5.0
+➡️ Should add check: if b == 0
+
+🔹 double(a)
+Returns: double the input value
+Example: double(6) → 12
+
+🔹 dummy()
+Prints: "This function does nothing"
+Purpose: Placeholder for testing or demonstration
+
+🛠️ Suggested Improvements
+Add error handling in divide() to avoid ZeroDivisionError
+
+Rename dummy() to something more descriptive
+
+Write unit tests for each function using unittest or pytest
