@@ -1,7 +1,7 @@
-# calculator.py
+# calculator.py (edited)
 
-def add(a, b):
-    return a + b
+def Add(a, b):  # bad naming
+    return a+b  # no spacing
 
 def subtract(a, b):
     return a - b
@@ -9,11 +9,8 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-def divide(a, b):
+def divide(a, b):  # missing zero-division check
     return a / b
 
-def double(a):
-    return a * 2
-
-def dummy():
-    print("This function does nothing")
+def double(x):
+    return x * 2
